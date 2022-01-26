@@ -1,0 +1,32 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@hot-loader/react-dom": "^17.0.2",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "dotenv": "^14.3.2",
+    "google-map-react": "^2.1.10",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "^5.0.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.67.0"
+  }
+}
