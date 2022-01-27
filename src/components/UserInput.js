@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import AddressValidator from './AddressValidator';
 
 const UserInput = () => {
   const [pickupIcon, setpickupIconSource] = useState("assets/pickUpBadgeBlank.svg")
   const [dropoffIcon, setdropoffIconSource] = useState("assets/dropOffBadgeBlank.svg")
   useEffect(()=>{
-    console.log(fieldValue)
+    // AddressValidator(fieldValue).then((value)=>{
+    //   console.log('Address:' + value)
+    // })
+    console.log(AddressValidator(fieldValue))
   })
   const [fieldValue, setFieldValue] = React.useState('');
   const handle_blur = (e) => setFieldValue(e.target.value);
